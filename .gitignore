@@ -1,0 +1,34 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+.envrc
+
+# Model artifacts
+Models/*.pkl
+Models/*.joblib
+Models/*.h5
+Models/*.keras
+Models/model_churn_tf/
+
+# Data files
+predictions/*.csv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Misc
+*.swp
